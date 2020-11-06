@@ -1,0 +1,158 @@
+:root {
+	--base-color: #548ACC;
+	--secondary-color: #3F4756;
+	--bg-color: #A3ACBD;
+	--header-color: #F3FAFF;
+	--header-text: #002D74;
+	--gray-color: #A3ACBD;
+	--black-color: #000000;
+	--white-color: #ffffff;
+	--red-color: #dc3545;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+*, html, body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	/* padding: 0px; */
+	/* background-color: #cecece; */
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#465b76+0,548acc+100 */
+	background: #465b76;
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #465b76 0%, #548acc 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #465b76 0%, #548acc 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #465b76 0%, #548acc 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#465b76', endColorstr='#548acc', GradientType=0);
+	/* IE6-9 */
+}
+
+.app-body {
+	padding: 20px;
+}
+
+.color-red {
+	color: red;
+}
+
+.success {
+	color: green;
+}
+
+.forgot-title {
+	margin-left: 70px;
+}
+
+/* header css */
+.nav.navbar-default {
+	background-color: var(--header-color);
+}
+
+.navbar-default .navbar-brand {
+	color: var(--base-color);
+}
+
+/* profile menu start */
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* ForgotPassword.js start */
+
+.btn.btn-primary.primary {
+	color: #fff;
+	background-color: var(--base-color);
+	border-color: var(--base-color);
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 6px 20px;
+}
+
+/* ForgotPassword.js end */
+.header.dropdown {
+	padding: 0;
+	border-radius: 3px;
+	right: 0px;
+	left: 9px;
+	width: 460px;
+	top: 61px;
+	border: none;
+}
+
+.header.dropdown a.menu-item {
+	padding: 10px;
+	color: #000;
+}
+
+.header.dropdown a.menu-item:hover {
+	border-radius: 3px;
+	text-decoration: none;
+	color: #fff;
+}
+
+/* Language.js */
+
+.select-list-item {
+	background-color: var(--bg-color);
+	color: white;
+}
+
+/* Profile.js */
+
+.profile-preview {
+	width: 120px !important;
+	height: 120px !important;
+}
+
+/* new or update employee */
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.btn-primary.filter {
+	background-color: var(--base-color);
+	border: none;
+	padding: 4px 10px 1px 10px;
+}
+
+.btn-primary.filter .glyphicon {
+	font-size: 24px;
+}
+
+.toast-success-container {
+	-webkit-transform: translate3d(0, 0, 9999px);
+	position: fixed;
+	width: 322px;
+	box-sizing: border-box;
+	color: white;
+	border-radius: 8px !important;
+	font-size: 14px;
+	font-weight: 600;
+	background: #28a745c7 !important;
+}
+.toast-failure-container {
+	-webkit-transform: translate3d(0, 0, 9999px);
+	position: fixed;
+	width: 322px;
+	box-sizing: border-box;
+	color: white;
+	border-radius: 8px !important;
+	font-size: 14px;
+	font-weight: 600;
+	background: #ff00008c !important;
+}

@@ -1,0 +1,25 @@
+{
+    "galaxy.meteor.com": {
+        "env": {
+          "MONGO_URL": "mongodb://admin:admin1234@cluster0-shard-00-00.wrsbe.azure.mongodb.net/venkatesh?ssl=true&replicaSet=atlas-9oh58r-shard-0&authSource=admin&retryWrites=true&readPreference=primary",
+          "MONGO_OPLOG_URL": "..."
+        }
+    },
+    "public":{
+      "CLIENT_APP_URL": "http://localhost:3000/",
+      "password_rule": "",
+      "password_rule_msg": "Password must be minimum 8 characters with 1 uppercase, numerical, and special character",
+      "ga":{
+        "account":"UA-XXXXXXX-1"
+      }
+    },
+    "private":{
+        "AZURE_STORAGE": {
+          "AZURE_STORAGE_ACCOUNT": "devstoredenali",
+          "AZURE_STORAGE_ACCESS_KEY": "EwgZp28XhdheyEje+lvrGqdedUF8Di/twUI84QWWrAIfnXQyeoQ30I6fao4Z2Zl4t3Dn6fzdjZbGTdR8/Loa9w=="
+        },
+        "ga":{
+          "account":"UA-XXXXXXX-1"
+        }
+      }
+}

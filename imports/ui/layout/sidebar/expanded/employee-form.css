@@ -1,0 +1,147 @@
+
+.update-text {
+	display: block;
+    font-weight: bold;
+	padding-left: 30px;
+	padding-top: 10px;
+	color:var(--header-text);
+}
+
+.update-text-italic {
+	font-style: italic;
+	padding-left: 30px;
+	font-size: 16px;
+    color: var(--gray-color);
+}
+
+.employee-text-field {
+	display: block;
+	padding: 20px 20px 0px 30px;
+}
+
+.employee-text-field label {
+	color:var(--header-text);
+	font-size: 14px;
+}
+
+.employee-text-field .react-date-picker {
+	display: block;
+}
+
+.photo-upload-section {
+	display: block;
+	padding: 20px 20px 0px 27px;
+ }
+
+ .photo-upload-section label {
+	color: var(--header-text);
+    font-size: 14px;
+ }
+
+ .employee-image-section {
+	display: block;
+	padding: 10px 10px 0px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: var(--base-color);
+	background-color: var(--header-color);
+	cursor: pointer;
+}
+
+.drop-new-image {
+	display: inline-block;
+}
+
+.drop-new-image i {
+	font-size: 16px !important;
+}
+
+.drop-new-image p {
+	text-align: center;
+	font-weight: bold;
+	color: var(--base-color);
+	font-size: 16px !important;
+}
+
+.upload-image {
+	display: inline-block;
+}
+
+.upload-image img {
+	background: var(--base-color);
+	width: 70px;
+	height: 70px;
+	border-radius: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+}
+
+.employee-error{
+	padding-left: 30px;
+}
+
+.employee-success{
+	padding-left: 30px;
+}
+
+
+/* .react-datepicker start */
+
+.react-datepicker-wrapper {
+    display: inline-block;
+    padding: 0;
+    width: 100%;
+    border: 0;
+}
+
+.react-date-picker__wrapper {
+	height: 35px;
+	border: thin solid var(--bg-color) !important
+}
+
+.react-date-picker .react-date-picker__clear-button.react-date-picker__button {
+	display: none !important;
+}
+
+.react-date-picker .react-date-picker__calendar-button.react-date-picker__button svg {
+	display: none !important;
+}
+button.react-date-picker__calendar-button.react-date-picker__button::before {
+    content: "\f073";
+    color: #fff;
+    display: inline-block;
+    font-family: "Font Awesome 5 Pro";
+    background: #337ab7;
+    padding: 9px 12px;
+    line-height: 16px;
+    position: relative;
+    top: -4px;
+	right: -6px;
+	font-size: 17px;
+}
+.react-date-picker__inputGroup__input:invalid {
+	background: var(--white-color)!important;
+}
+
+/* .react-datepicker end */
+
+.submit-button {
+	width: 100px;
+	height: 40px;
+	background-color:var(--base-color);
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+.cancel-button {
+	width: 120px;
+	height: 40px;
+	background-color:var(--secondary-color);
+	color:var(--white-color);
+	font-weight: bold;
+	font-size: 20px;
+	margin-right: 10px;
+}

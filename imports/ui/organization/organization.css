@@ -1,0 +1,226 @@
+.main{
+    margin-top: 2rem
+}
+.bg{
+    background-color: white;
+}
+.title{
+    color: #002d74;
+    font-weight: bold;
+    font-size: 16px;
+}
+.inner-title{
+    color: #002d74;
+    font-weight: bold;
+    font-size: 16px;
+}
+.form-header-card{
+    color: white;
+    background: #a3acbd;
+    border-top-right-radius: 24px;
+    height: 5rem;
+    align-items: center;
+    display: flex;
+    /* width: 61%; */
+    margin-top: 8rem;
+}
+.form-body-card-header{
+    /* display: flex; */
+    width: 99.8%;
+    margin-left: 1px;
+}
+.form-title{
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.status-view{
+    display: flex;
+    justify-content: flex-end;
+    box-shadow: 0px 0px 0px 0.5px rgb(0 0 0 / 52%);
+}
+.visible{
+    margin-right: 10px;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.form-body-card-body{
+    width: 99.8%;
+    margin-left: 1px;
+    display: flex;
+    box-shadow: 0px 0px 0px 0.5px rgb(0 0 0 / 52%);
+    
+}
+.form{
+    width: 65%;
+    height: 100vh;
+    /* overflow-x: hidden;
+    overflow-y: scroll; */
+    margin: 1rem;
+    flex-direction: column;
+    display: flex;
+}
+.form-two{
+    width: 35%;
+    box-shadow: 0px 0px 0px 0.5px rgb(0 0 0 / 52%);
+}
+.sub-form{
+    background-color: #a3acbd;
+    height: 100vh;
+    margin: 1rem;
+}
+.label-text{
+    color: #002d74;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.input-div{
+    margin-bottom: 4px;
+    width: 97%;
+  }
+.sub-input-div{
+    width: 95%;
+  }
+ .btn-group{
+    justify-content: center;
+    display: flex;
+ } 
+ .btn-view{
+    margin: 1rem;
+ }
+ .organization-update-btn{
+    background: var(--base-color);
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    width: 85px;
+    outline: none;
+    cursor: pointer;
+ }
+ .cancel-btn{
+    background: var(--secondary-color);
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    width: 85px;
+    outline: none;
+    cursor: pointer;
+ }
+ .two-inputs{
+    display: flex;
+    justify-content: space-between;
+ }
+ .grid{
+     display: grid;
+     width: 48%;
+ }
+.organization-right-panel{
+    margin-top: 6rem;
+    height: calc(100% - 6rem);
+}
+.organization-sub-right-panel{
+    height: 100%;
+    background: #a3acbd;
+    border-top-right-radius: 24px;
+}
+.flx-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ /* Side menu */
+ .update-text {
+	display: block;
+    font-weight: bold;
+	padding-left: 30px;
+	padding-top: 10px;
+	color:var(--header-text);
+}
+.update-text-italic {
+	font-style: italic;
+	padding-left: 30px;
+	font-size: 16px;
+    color: var(--gray-color);
+}
+.pointer{
+    cursor: pointer;
+}
+.dropdown-options{
+    margin-left: 6rem;
+    font-weight: bold;
+    font-size: 14px;
+}
+.active{
+    background-color: var(--base-color);
+    width: max-content;
+    padding: 0.5em 1em 0.25em 1em;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+.inactive{
+    background-color: transparent;
+    width: max-content;
+    padding: 0.5em 1em 0.25em 1em;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.new-btn{
+    background: var(--base-color);
+    color: var(--white-color);
+    padding: 6px;
+    border-radius: 6px;
+    border: none;
+    width: 85px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 8rem;
+}
+.down-glyphicon{
+    font-size: 14px;
+    color: var(--base-color);
+}
+.up-glyphicon{
+    font-size: 14px;
+    color: var(--base-color);
+}
+.eye-glyphicon{
+    font-size: 13px;
+    right: 3px;
+    font-weight: bold;
+}
+.menu-glyphicon{
+    float: right;
+}
+.divider{
+    margin-bottom: 0;
+    background: var(--base-color);
+    height: 4px;
+}
+/* Custom scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #a3acbd; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #787878; 
+  }
